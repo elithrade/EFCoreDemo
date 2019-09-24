@@ -40,7 +40,7 @@ namespace EFCoreDemo
 
                 foreach (var enrollment in enrollments)
                 {
-                    Console.WriteLine($"{enrollment.Student.FirstMidName}" +
+                    Console.WriteLine($"{enrollment.Student.FirstMidName} " +
                         $"received grade {enrollment.Grade} in " +
                         $"course {enrollment.Course.Title}");
                 }
